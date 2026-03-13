@@ -1,0 +1,293 @@
+-- Atividades feitas em sala de aula com o Fessor Cefras!!! -- 
+-- equipe de devs:  Arthur, Miguel, Felipe e Simão -- 
+
+------------------------------------------------------------------
+
+# # # # # INT
+# # #idade = 19
+# #pontos = -5
+# # # #quantidade = 0
+
+# # # # -------------#
+
+# # # # # STR (string)
+# # # # #nome = input("Qual seu nome ?")
+ #idade = int(input("QUal sua idade: "))
+# # # peso = float(input("Qual seu pesp:"))
+
+# # # #  # #--------------#
+
+# # # # # # #ATIVIDADE AULA 02#
+
+# # # # # #  #idade = 22
+# # #  #valor = 25.50
+# # # # # #nome =  "Jaquina"
+# # # # # #o = True
+
+# # # # # #type(idade)
+# # # # # #  #type(valor)
+# # # # ## #type(nome)
+# ## #type(True)
+
+# # # ## # #print(type(idade), type(valor), type(nome), type(True))
+
+# #  # # #idade = 25
+# # #  # # # #print(f"Eu tenho {idade} anos.")
+
+# # # # ## # # numero1 = int(input("Digite um número: "))
+# # # # # # # numero2 = int(input("Digite mais um número: "))
+
+# # # # #  # # print("O resultado é: ", numero1 + numero2) 
+
+# # # # # # # # # valor = 15.89
+
+# # # # ## # # print(int(valor))
+
+# # # # # # # # x = 10
+# # # # # # # # # y = 15
+#  # # # # # # resultado = x < y
+# # # # # # # # print(resultado)
+
+# # # # # # # nome = input("Digite seu nome: ")
+# # # # # # # # idade = int(input("Digite sua idade: "))
+# # # # # altura = float(input("Digite sua altura: "))
+
+#  # print(f"Olá {nome}, você tem {idade} anos e sua altura é {altura}")
+
+# # # ## numero_texto = '50'
+# # # # # ## print(int(numero_texto)*2)
+# # # # # # # print(float(numero_texto)*2)
+# # # # # # print(numero_texto*2)
+
+# # # # # # # # #  # ''' 
+# # # ## # Aula 03 - atividade 1
+# # # # # '''
+
+# # # # # # nome = input("Digite seu nome: ")
+# # # ## # peso = float(input("Digite seu peso: "))
+# ## # altura = float(input("Digite sua altura: "))
+
+# # # calculo = peso / altura ** (2)
+# # # # print(f"O seu IMC é: {calculo:.2f}")
+
+# ## # print(type(nome))
+# # # # # # # # print(type(peso))
+# # # # # # # print(type(altura))
+
+# # # # # # # -- atividade 2 -- #
+
+# # # # # # #  # while  True:
+# # # # # #     numero = int(input("Digite um numero: "))
+# # # # # #     if numero == 0 : break
+    
+# # # ## #     if numero % 2 == 0 :
+# # # # # # # #         print(f"{numero} é par")
+# # # # #     else: 
+# # #  #         print(f"{numero} é impar")
+        
+            
+# # # # -- atividade 3 -- #
+
+# # numero = int(input("Digite um número para a tabuada: "))
+# # print(f"Tabuada {numero}: ")
+# # for i in range(1, 11): 
+# #     for j in range(1, 11):
+# #         resultado = i* j 
+# #         print(f"{i} x {j} = {resultado}")
+# #     print()
+
+# # # # # # # # #-- atividade 4 - lista -- #
+
+# # # # # numero = int(input("Digite um número: "))
+
+# # # # # # print(f"O antecessor do numero é: {numero - 1}. E o sucessor é: {numero + 1}")
+
+# #  # # nota1 = float(input("Nota 1: "))
+# # # # # nota2 = float(input("Nota 2: "))
+# # # # #  # resultado = (nota1 + nota2) / 2
+## # print(f"A média do aluno(a) é: {resultado}")
+
+# #  # # numero = int(input("digite um numero: "))
+# # # print(f"O dobro desse número é: {numero * 2}.\n O triplo desse número é: {numero * 3}.\n A raiz quadrada é: {numero ** 0.5}")
+
+# # #  # numero =  50
+# # # # # ## # criancas = 6
+# # # # # # sobra = numero % criancas
+# # # # ## # bala = numero // criancas
+# # # # # ## # print(f"A divisão das balas para cada crianças: {bala}")
+# # #  # # print(f"Na caixa sobraram: {sobra} ")
+
+# # ## # # -- Aula 04 - atividades -- #
+
+# #  # # dolar = 5.80
+# # # # # # reais = float(input(("Digite quanto você tem na conta: ")))
+# # # # # # # calcular = reais / d# # print(f"Você consegue comprar: {calcular:.2f} dolares!")
+
+# # ## # idade = int(input("Qual sua idade? "))
+# # # # # # convite = bool(input("Você tem um convite? "))
+
+# # #  # if idade >= 18 and convite == True:
+## #     print(True else: 
+# # # #     print(False)    
+
+# # # # ## # # preco = float(input("Diga o preço original: "))
+# #  # # novo_preco = preco - (preco * 15 / 100)
+
+# # #  # # print(f"O valor final ficou: {novo_preco}")
+
+# # # #idade = int(input("Digite sua idade: "))
+
+# # #     print("voto obrigatorio")
+# # # elif idade < 16:
+# #     print("nao vota. estou aqui")
+# # # elif idade == 16 or 17:
+# # # # #      print("voto opcional. estou aqui")
+# # # #  else: 
+
+# # # # numero = int(input("Digite um numero: "))
+# # # # print(f"Tabuada {numero}")
+
+# # #  for i in range(1, 11):
+# # #     resultado = numero * i
+# #     print(f"{numero} X {i} = {resultado}")
+
+# # # # velocidade = int(input("Digite a velocidade: "))
+# # # # if velocidade > 80:
+# # #      print("O radar teu pegou otario.")
+# # #  else:
+# # #      print("Boa Viagem!")
+
+# # #  numero = int(input("Digite um numero: "))
+# # #  if numero % 2 == 0:
+# # #    print("é par")
+# # # else:
+# #     print("é impar. estou 
+# #  ATIVIDADE 3
+# # # numero_A= int( input( " Digite o Primeiro Number"))
+# ##numero_B= int( input( " Digite o Second Number"))
+# # if numero_A > numero_B:
+# #   print (" O primeiro nmero é maior que o Segundo")
+# # # elif  numero_B> numero_A:
+# # #    print(" O segundo numero é maior que o Primeiro")
+# # else :
+# #    print (" Os dois são Iguais, MANO :(")
+
+
+
+# # #  km = float(input("Quantos KMs vc vai percorrer?: "))
+# # # #  preco_1= 0.50
+# # # # preco_2 = 0.45
+
+# # #  if km >=1 and km <= 200:
+# # #      print(f"vc pagara: {km * preco_1} ")
+
+# # #  else :
+# # #      print(f"vc Pagara: {km * preco_2}")    
+    
+     
+# # # nascimento = int(input("Em que ano vc nasceu?: "))
+# #  ano = 2026
+# #  resultado = ano - nascimento
+
+# #  if  resultado <= 12:
+# #      print(f"{resultado} anos,  você é uma crinça!")
+# #  elif resultado >=13 and resultado <=17 :
+# #     print(f"{resultado} anos,  você é um adolescente!")
+# #  elif resultado >=18 and resultado <=64:
+# #      print(f"{resultado} anos,  você é um adulto!")
+# #  else :
+# #   print(f"{resultado} anos,  você é um Senior!")
+
+# # # # # valor_casa = float(input("Qual o valor da casa: "))
+# # # # # salario_comprador = float(input("Qual o seu salario: "))
+# # # # # numero_parcelas =  int(input("Em quantas parcelas você quer dividir: "))
+
+# # # # # prestacao = valor_casa / numero_parcelas
+# # # # # if prestacao > 30% salario_comprador:
+# # # # #     print("Emprestimo Negado!")
+# # # # # else:
+# # # # #     print("Emprestimo Aprovado!")
+
+# # # # valor1 = float(input("Digite um numero: "))
+# # # # valor2 = float(input("Digite outro valor: "))
+# # # # operacao = input("Qual operação vc quer? ")
+
+# # # # if operacao == "+":
+# # # #     print(f"O resultado da soma é: {valor1 + valor2}")
+# # # # elif operacao == "-":
+# # # #     print(f"O resultado da subtração é: {valor1 - valor2}")
+# # # # elif operacao == "*":
+# # # #     print(f"O resultado da multiplicação é: {valor1 * valor2}")
+# # # # elif operacao == "/":
+# # # #     print(f"O resultado da divisão é: {valor1 / valor2}")
+# # # # else:
+# #    print("Esta operação não existe. Seu burro. Jumento quadrado!")
+
+
+# # # # --- Lista 03 --- #
+
+
+# # # for numero in range(1,51): 
+# # #     if numero % 2 == 0:
+# # #         print(f"Os número pares são: {numero}")
+
+
+# # resultado = 0
+# # for numero in range(1, 7):
+# #     num = int(input(f"Digite numero {numero}º: "))
+# #     if numero % 2 == 0:
+# #         resultado += numero
+# # print(f"O resultado da soma dos numeros pares é: {resultado}")
+
+
+# # while True: 
+# #     numero = int(input("Digite um número para a tabuada: "))
+# #     print(f"Tabuada {numero}: ")
+# #     if numero < 0:
+# #         break
+# #     print("-" * 20)
+# #     for i in range(1, 11):      
+# #         print(f"{numero} x {i} = {numero * i}")
+# #     print("-" * 20)
+# # print("Fim de execução!!!")
+
+
+# # frase = input("Cite uma frase: ").strip().upper()
+# # palavra = frase.split()
+# # junto = "".join(palavra)
+# # inv = ""
+
+# # for letra in range(len(junto) - 1, -1, -1):
+# #     inv += junto[letra]
+    
+# # print(f"O inverso de {junto} é {inv}")
+# # if junto == inv:
+# #         print("É um palindromo. ")
+# # else:
+# #         print("Não é um palindromo. ")
+
+
+# t18 = th = tm20 = 0
+# while True: 
+#     idade = int(input("qual sua idade: "))
+#     sexo = " "
+#     while sexo not in "MF":
+#         sexo = input("Qual o seu sexo: ").strip().upper()[0]
+
+#     if idade >= 18:
+#         t18 += 1
+#     if sexo == "M":
+#         th += 1
+#     if sexo == "F" and idade < 20:
+#         tm20 += 1
+
+#     respostas = " "
+#     while respostas not in "SN":
+#         respostas = input("Você deseja continuar? ").strip().upper()[0]
+
+#     if respostas == "N":
+#         break
+
+# print(f"Pessoas com +18: {t18}")
+# print(f"Homens cadastrados: {th}")
+# print(f"Mulheres com menos -20: {tm20}")
